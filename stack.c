@@ -19,3 +19,27 @@ int pop(int *value){
 	}
 	return 1;	
 }
+
+void print_stack(int mode){
+	int *i;
+	if(stackPointer >= stack){
+		printf("%s","Stack:");
+		for(i = &stack[0]; i<=stackPointer; i++){
+			if(mode==0){ 
+				printf(" %d", *i);
+			}
+	    	else if(mode ==1){ 
+	    		printf(" %x", *i);
+	    	}
+	    	else{ 
+	    		printf(" %c", *i);
+	    	}
+		}
+	 printf("\n");
+	}
+	else{
+	printf("%s","Stack:");
+	printf("\n");
+  }  
+
+}
