@@ -4,3 +4,6 @@ void print_stack(int mode);
 extern int stack[10];
 extern int *stackPointer;
 
+
+
+
