@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int stack[10]; 
-int *stackPointer;
+int *stackPointer = stack - 1;
 
 int push(int value){
 	if(stackPointer + 1 >= &stack[0] + 10){
@@ -15,6 +15,7 @@ int push(int value){
 int pop(int *value){
 	if(stackPointer >= stack){
 		*value = *stackPointer;
+	        stackPointer = stackPointer -1;
 		return 0;
 	}
 	return 1;	

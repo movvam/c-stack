@@ -11,7 +11,6 @@ int main(void){
 	int mode = 0;
 	int num;
 	int val;
-	stackPointer = stack-1;
 	printf("%s","Welcome to the stack program.\n");
 	
 	while(cont == 1){
@@ -27,7 +26,6 @@ int main(void){
 				}
 				else{
 				        print_stack(mode);
-					/*stackPointer = stackPointer +1;*/
 				}
 				break;
 
@@ -39,7 +37,6 @@ int main(void){
 			    	printf("%s", "Popped");
 			    	printf(" %d",val);
 			    	printf("\n");
-			    	stackPointer = stackPointer -1;
 			    }
 			   
 				print_stack(mode);
