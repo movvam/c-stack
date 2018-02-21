@@ -58,7 +58,7 @@ int main(void){
 				cont = 0;
 				break;
                         default:
-				printf("\n\n");
+				printf("\n");
 		}
 	} 
 	printf("Goodbye!");
