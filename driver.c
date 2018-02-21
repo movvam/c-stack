@@ -24,6 +24,7 @@ int main(void){
 				else{
 				        print_stack(mode);
 				}
+				print_stack(mode);
 				break;
 
 			case 'o': 
