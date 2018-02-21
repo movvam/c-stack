@@ -29,10 +29,10 @@ void print_stack(int mode){
 			if(mode==0){ 
 				printf(" %d", *i);
 			}
-	    	        else if(mode ==1){ 
+	    	        if(mode ==1){ 
 	    		        printf(" %x", *i);
 	    	}
-	    	        else if(mode == 2){ 
+	    	        if(mode == 2){ 
 	    		        printf(" %c", *i);
 	    	}
 		}
