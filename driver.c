@@ -15,9 +15,6 @@ int main(void){
 		printf("\nEnter option: ");
 		scanf(" %c",&input);
 		switch(input){
-                        case 'a':
-                                printf("\n");
-				break;
 			case 'u':
 				printf("%s","What number? ");
 				scanf(" %d",&num);
@@ -60,6 +57,8 @@ int main(void){
 			case 'x':
 				cont = 0;
 				break;
+                        default:
+				printf("\n\n");
 		}
 	} 
 	printf("Goodbye!");
