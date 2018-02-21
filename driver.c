@@ -2,9 +2,7 @@
 #include "stack.h"
 
 int main(void){
-	
-	/*int stack[10];*/
-	/*int *stackPointer;*/
+
 
     char input;
 	int cont = 1;
