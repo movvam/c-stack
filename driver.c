@@ -60,6 +60,6 @@ int main(void){
 				break;
 		}
 	} 
-	printf("Goodbye!\n");
+	printf("Goodbye!");
 	return 0;
 }
