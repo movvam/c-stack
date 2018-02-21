@@ -5,13 +5,13 @@ int main(void){
 
 
     char input;
-	int cont = 1;
+	int keepGoing = 1;
 	int mode = 0;
 	int num;
 	int val;
 	printf("%s","Welcome to the stack program.\n");
 	
-	while(cont == 1){
+	while(keepGoing == 1){
 		printf("\nEnter option: ");
 		scanf(" %c",&input);
 		switch(input){
@@ -53,7 +53,7 @@ int main(void){
 				break;
 				
 			case 'x':
-				cont = 0;
+				keepGoing = 0;
 				break;
                         default:
 				printf("\n");
