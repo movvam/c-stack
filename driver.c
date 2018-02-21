@@ -21,9 +21,6 @@ int main(void){
 				if(push(num)){
 					printf("Overflow!!!\n");
 				}
-				else{
-				        print_stack(mode);
-				}
 				print_stack(mode);
 				break;
 
