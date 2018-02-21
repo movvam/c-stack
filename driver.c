@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "stack.h"
-int main(){
+
+int main(void){
 	
 	/*int stack[10];*/
 	/*int *stackPointer;*/
@@ -25,9 +26,9 @@ int main(){
 					printf("Overflow!!!\n");
 				}
 				else{
-					stackPointer = stackPointer +1;
+				        print_stack(mode);
+					/*stackPointer = stackPointer +1;*/
 				}
-				print_stack(mode);
 				break;
 
 			case 'o': 
