@@ -15,7 +15,9 @@ int main(void){
 		printf("\nEnter option: ");
 		scanf(" %c",&input);
 		switch(input){
-
+                        case 'a':
+                                printf("\n");
+				break;
 			case 'u':
 				printf("%s","What number? ");
 				scanf(" %d",&num);
