@@ -2,13 +2,13 @@
 #include "stack.h"
 
 int main(void){
-
+/**/
 
     char input;
 	int keepGoing = 1;
 	int mode = 0;
-	int num;
-	int val;
+	int pushVal;
+	int popVal;
 	printf("%s","Welcome to the stack program.\n");
 	
 	while(keepGoing == 1){
@@ -17,20 +17,20 @@ int main(void){
 		switch(input){
 			case 'u':
 				printf("%s","What number? ");
-				scanf(" %d",&num);
-				if(push(num)){
+				scanf(" %d",&pushVal);
+				if(push(pushVal)){
 					printf("Overflow!!!\n");
 				}
 				print_stack(mode);
 				break;
 
 			case 'o': 
-			    if(pop(&val)){
+			    if(pop(&popVal)){
 			    	printf("Underflow!!!\n");
 			    }
 			    else{
 			    	printf("%s", "Popped");
-			    	printf(" %d",val);
+			    	printf(" %d",popVal);
 			    	printf("\n");
 			    }
 			   
